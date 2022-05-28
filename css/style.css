@@ -60,6 +60,7 @@ nav ul.navbar-nav li.nav-item a:hover{
     color: #f26c4f;
     font-size: 4rem;
     font-weight: 600;
+    padding-bottom: 0;
 }
 .intro-section .left-section .designation{
     font-size: 2rem;
