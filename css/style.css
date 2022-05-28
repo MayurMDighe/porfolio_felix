@@ -1,17 +1,19 @@
 body,html,span{
     font-family: 'Montserrat', sans-serif !important;
 }
-/* h1.text-center{
-    color: #f26c4f;
-} */
 h2.title{
     font-size: 1.7rem;
     padding-bottom: 1.2rem;
 }
 .navbar-light .navbar-brand{
+color: #f26c4f;
+font-weight: 500;
+}
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus{
     color: #f26c4f;
     font-weight: 500;
-    }
+    }    
 nav ul.navbar-nav li.nav-item{
     font-size: 1.2rem;
 }
