@@ -1,0 +1,374 @@
+body,html,span{
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* h1.text-center{
+    color: #f26c4f;
+} */
+h2.title{
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+}
+.navbar-light .navbar-brand{
+    color: #f26c4f;
+    font-weight: 500;
+    }
+nav ul.navbar-nav li.nav-item{
+    font-size: 1.2rem;
+}
+nav ul.navbar-nav li.nav-item a.active{
+   color: #f26c4f !important;
+   font-weight: 500;
+}
+nav ul.navbar-nav li.nav-item a:hover{
+    color: #f26c4f !important;
+ }
+  h1.title{
+      padding: 0 0 2rem;
+  }
+  h1.title > span {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: auto;
+}
+  h1.title span:after{
+    content: '';
+    background: #f26c4f;
+    height: 3px;
+    color:#f26c4f;
+    position: absolute;
+    width: calc(100% - 2rem);
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: 0;
+ } 
+.intro-section{
+    height: 100vh;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    transparent url(../images/tech_bg.jpg) center center/cover no-repeat scroll;
+    color: #fff;
+}
+.intro-section .left-section{
+    height: 100%;
+}
+.intro-section .left-section .title{
+    color: #f26c4f;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.intro-section .left-section .designation{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.intro-section .left-section p.desc{
+    color: #8d8b8b;
+}
+.intro-section .right-section{
+    text-align: center;
+}
+.card-body .card-text p{
+    font-size: .9rem;
+}
+.skills-set{
+    padding: 5rem 0 0rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    /* transparent url(https://frontendmasters.com/guides/front-end-handbook/2018/images/front-end-skills.png) 
+    center center/cover no-repeat scroll; */
+    transparent url(../images/skill_bg.jpeg) center center/cover no-repeat fixed;
+}
+.skills-set .card-body a {
+    padding: 0;
+    border: none;
+}
+.skills-set .card-body a>.fa {
+    font-size: 2rem;
+    line-height: normal;
+}
+.skills-set .card{
+    box-shadow: 0px 0px 12px #fff;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+.skills-set .card-title{
+    color: #f26c4f;
+}
+.skills-set .card:hover{
+    transform: scale(1.1);
+}
+.projects_section{
+    padding: 5rem 0 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    transparent url(../images/skill_bg.jpeg
+    ) center center/cover no-repeat fixed;
+}
+ button,a.btn{
+   background: #fff;
+   color: #f26c4f;
+   border: 1px solid #f26c4f;
+   font-weight: 600;
+}
+ button:hover,a.btn:hover{
+   background:#f26c4f;
+   color: #fff;
+   border: 1px solid #f26c4f;
+}
+button.carousel-control-prev,
+button.carousel-control-next{
+   height:10px;
+   top:50%;
+}
+.projects_section #projects_slider button:hover, 
+.projects_section #projects_slider a.btn:hover{
+    background:transparent;
+    border: none;   
+}
+.about-wrapper{
+    color: #fff;
+    background-color: #020312;
+}
+.about-wrapper .about-pic{
+    background: url(/images/about-me.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-wrapper p.head{
+    margin-bottom: 0;
+    color: #f26c4f;
+}
+
+.about-wrapper .about-details{
+   padding: 0 30px;
+}
+.about-wrapper .about-details p.details{
+  color: #8d8b8b; 
+}
+.about-wrapper p.greet{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px 10px; 
+    position: relative;
+  }
+  .about-wrapper p.greet:after{
+    border-style: solid;
+    border-width: 0.625rem 0.625rem 0 0;
+    border-color: #fff transparent transparent transparent;
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    left: 5px;
+  }
+  .about-wrapper .about-skills{
+    padding: 0 30px;
+  }  
+.about-wrapper .about-skills p.skill{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.about-wrapper .about-skills p.skill:first-child{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-skills p.skill:after{
+   content: '';
+   position: absolute;
+   left: 0;
+   background-color: #f26c4f;
+   width: 100%;
+   height: 5px;
+   bottom: -10px;
+}
+.about-wrapper .about-skills p.skill:nth-child(2){
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-skills p.skill:nth-child(3){
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-skills p.skill:nth-child(4){
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-skills p.skill span{
+    border: 2px solid #fff;
+    padding: 1px 5px;
+    font-size: 13px; 
+}
+.about-wrapper .about-skills p.skill-title{
+    font-size: 1.35rem;
+}
+.work-together{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    transparent url(http://www.themestarz.net/html/selfer/assets/img/bg-keyboard.jpg) center center/cover no-repeat scroll; 
+    padding: 30px 0;
+    color: #fff;
+}
+.work-together .work-wrapper{
+    position: relative;
+}
+.work-together .work-wrapper .connect-btns{
+    /* position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%, 100%);
+    left: 50%; */
+    padding: 20px 0 10px;
+} 
+.work-together p.tag{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.work-together a.btn.contact, 
+.work-together a.btn.cv{
+    width: 15%;
+    overflow: hidden;
+}
+
+.work-together a.btn:hover span.slide-in-right{
+    transform: translateX(0%);
+}
+.work-together a.btn:hover span.slide-in-left{
+    transform: translateX(140%);
+    display: none;
+}
+.work-together span.slide-in-right{
+    transform: translateX(-140%);
+    display: inline-block;
+    transition: .5s ease all;
+}
+.work-together span.slide-in-left {
+    transform: translateX(0%);
+    display: inline-block;
+    position: absolute;
+    transition: .5s ease all;
+}
+.contact-me-section{
+    color: #fff;
+    background-color: #020312;
+}
+.contact-me-section .contact-form{
+    padding-top: 30px;
+}
+.contact-me-section .contact-form label{
+    color: #f26c4f;
+}
+button{
+    padding: 0.375rem 0.75rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), 
+    transparent url(../images/footer.jpg) center center/cover no-repeat scroll; 
+    padding: 30px 0;
+}
+footer p{
+    margin-bottom: 0;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    nav.navbar.fixed{
+      position: fixed;
+      width: 100%;
+      z-index: 999;  
+    }
+    .navbar-light .navbar-brand{
+        color: #f26c4f;
+        font-weight: 500;
+        transform: scale(1.25);
+        /* animation-name: zoom; */
+        animation-duration: 1s;
+        animation-direction:alternate;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    @keyframes zoom{
+        from{transform: scale(1.15)}
+        to{transform: scale(1.5);}
+    }
+    .about-wrapper,.contact-me-section{
+        padding: 8rem 0;
+    }
+ }
+   @media (max-width: 768px) {
+    h1.title{
+       padding: 2rem 0 0;
+    }   
+    h2.title{
+        font-size: 1.2rem;
+        text-align: center;
+    } 
+    .about-wrapper  h1.title{
+        padding: 2rem 0;
+    }  
+    .navbar-light .navbar-brand{
+       font-size: 1.8rem;
+    }   
+    .skills-set .card{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    button:hover, a.btn:hover{
+        color: #fff !important;
+    }
+    .intro-section .re-order{
+      order: 2;
+    }
+    .intro-section .left-section .title{
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 0;
+    } 
+    .intro-section{
+        padding-top: 2rem;
+        height: auto;
+    }
+    .intro-section .left-section .designation{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .intro-section .left-section p.desc{
+        font-weight: 500;
+        text-align: center;
+    }
+    .skills-set,.projects_section{
+        padding: 2rem 0 0;
+    }
+    .projects_section .card{
+        margin-bottom: 20px;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .card-text{
+        font-size: .8rem;
+    }
+    .work-together a.btn.contact, .work-together a.btn.cv{
+        width: auto;
+    }
+    .about-wrapper .about-details{
+        padding: 0 10px;
+    }
+    .about-wrapper .about-skills{
+        padding: 20px 10px 0;
+    }
+    .work-together p.tag{
+        font-size: 1.5rem;
+    }
+   } 
+   
